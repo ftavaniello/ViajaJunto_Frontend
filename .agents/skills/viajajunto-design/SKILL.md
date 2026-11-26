@@ -21,6 +21,7 @@ Use esta skill ao planejar ou alterar telas e componentes do frontend. Trate as 
 
 - Antes de desenhar uma tela, identifique seu objetivo, público, conteúdo, ações, navegação e estados de carregamento, vazio, erro, sucesso e acesso negado quando aplicáveis. Ofereça uma ação de recuperação em erros quando possível.
 - Diferencie o que o protótipo demonstra do que existe na API. Consulte a documentação atual do backend para campos, permissões e respostas; registre lacunas em vez de inventar comportamentos.
+- Nas funcionalidades implementadas, use os endpoints reais e nunca apresente dados fictícios como dados reais. Se a API estiver indisponível ou faltar uma rota, mostre um estado claro e registre a dependência; componentes visuais isolados não equivalem a uma funcionalidade integrada.
 - Considere os papéis de criador, editor e visualizador nas telas de viagem. Não adicione funcionalidades fora do escopo acordado apenas por existirem no backend.
 - Ao implementar, siga as convenções existentes de Next.js e os componentes e tokens já acordados. Se ainda não houver uma decisão visual, proponha uma solução coerente e registre a escolha para revisão do grupo.
 - Revise a interface em tamanhos de tela relevantes e relate somente verificações realmente executadas.
